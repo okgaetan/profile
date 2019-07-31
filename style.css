@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(247, 249, 252);
+  font-family: sans-serif;
+  color: #575F7D;
+  font-size: 20;
+  line-height: 2 ;
+}
+
+h1 {
+  color: #32CD32  ;
+  font-family: sans-serif;
+  font-size: 25;
+  line-height: 1 ;
+}
+
+a:hover {
+color: red;
+text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #98FB98 ;
+  border-radius: 60px;
+  padding: 20px;
+}
+
+.nom {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 60px;
+    margin: 60px 300px;
+    text-align: center
+}
+
+li {
+  display: inline-block;
+  padding: 10;
+  list-style: none;}
+ul{
+  padding: 0
+}
+
+
+/`
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 100px;
+  }
